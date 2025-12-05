@@ -1,0 +1,1 @@
+# This is me solving Advent of Code 2025.
