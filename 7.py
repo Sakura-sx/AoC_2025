@@ -30,8 +30,6 @@ def solve7_1():
 
 # part 2
 def solve7_2():
-    solution = 0
-
     with open("7.txt", "r") as f:
         file = f.readlines()
 
@@ -51,7 +49,6 @@ def solve7_2():
                 elif line[i] == "^":
                     newbeampositions[i-1] = True
                     newbeampositions[i+1] = True
-                    solution += 1
                     goodsplits[file.index(line)][i] = True
         beampositions = newbeampositions.copy()
         newbeampositions = [False for _ in range(len(file[0]))]
