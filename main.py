@@ -4,7 +4,7 @@ import pathlib
 
 times = []
 
-for i in range(1, 9+1):
+for i in range(1, 12+1):
     for j in range(1, 2+1):
 
         # Build filename like "1.py"
